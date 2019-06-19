@@ -3556,7 +3556,7 @@ create-hmac@^1.1.0, create-hmac@^1.1.2:
     create-hash "^1.1.0"
     inherits "^2.0.1"
 
-cross-spawn@6.0.5, cross-spawn@^6.0.0, cross-spawn@^6.0.5:
+cross-spawn@6.0.5, cross-spawn@^6.0.0, cross-spawn@^6.0.4, cross-spawn@^6.0.5:
   version "6.0.5"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-6.0.5.tgz#4a5ec7c64dfae22c3a14124dbacdee846d80cbc4"
   integrity sha512-eTVLrBSt7fjbDygz805pMnstIs2VTBNkRm0qxZd+M7A5XDdxVRWO5MxGBXZhjY4cqLYLdtrGqRf8mBPmzwSpWQ==
@@ -4891,15 +4891,6 @@ fs-extra-p@^7.0.0:
   dependencies:
     bluebird-lst "^1.0.6"
     fs-extra "^7.0.0"
-
-fs-extra@8.0.1:
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-8.0.1.tgz#90294081f978b1f182f347a440a209154344285b"
-  integrity sha512-W+XLrggcDzlle47X/XnS7FXrXu9sDo+Ze9zpndeBxdgv88FHLm1HtmkhEwavruS6koanBjp098rUpHs65EmG7A==
-  dependencies:
-    graceful-fs "^4.1.2"
-    jsonfile "^4.0.0"
-    universalify "^0.1.0"
 
 fs-extra@^1.0.0:
   version "1.0.0"
@@ -7459,6 +7450,17 @@ nice-try@^1.0.4:
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.4.tgz#d93962f6c52f2c1558c0fbda6d512819f1efe1c4"
   integrity sha512-2NpiFHqC87y/zFke0fC0spBXL3bBsoh/p5H1EFhshxjCR5+0g2d6BiXbUFz9v1sAcxsk2htp2eQnNIci2dIYcA==
 
+node-7z@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/node-7z/-/node-7z-1.1.0.tgz#08a671fa03f52dbc0852de9d989c356d8405e692"
+  integrity sha512-pVU+HitGdO14m/rwGAwp3xMXScNUyc04plFvCPhof4QIj93LrILrD2Dz4ODDbVrtqxbx9jxGbJJnbSwr43DQHw==
+  dependencies:
+    cross-spawn "^6.0.4"
+    debug "^4.1.1"
+    lodash "^4.17.11"
+    normalize-path "^3.0.0"
+    regexp-polyfill "^1.0.1"
+
 node-fetch@^2.3.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
@@ -8846,6 +8848,11 @@ regex-not@^1.0.0, regex-not@^1.0.2:
   dependencies:
     extend-shallow "^3.0.2"
     safe-regex "^1.1.0"
+
+regexp-polyfill@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/regexp-polyfill/-/regexp-polyfill-1.0.1.tgz#2b2887c3eb15072ba63a4a4186f950910527e3e7"
+  integrity sha512-kyYqOUpy+/MYja6oXu8kNHO2f0BfN/7cb3X3xn2rRGDY8rUUsrti97+BO46TlTOhxDaY7t6AyFERue5x+ZRvcA==
 
 regexp-tree@^0.1.6:
   version "0.1.10"
