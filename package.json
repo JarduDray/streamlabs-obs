@@ -36,7 +36,7 @@
     "compile-tests": "tsc -p test",
     "screentest": "node test/screentest/runner.js",
     "commit": "commit",
-    "postinstall": "scripts/facemask-plugin-move.bat",
+    "postinstall": "scripts/facemask-plugin-move.sh",
     "signbinaries": "yarn install --cwd bin && node bin/sign-binaries.js",
     "tail-obs-logs": "yarn install --cwd bin && node bin/tail-obs-logs.js"
   },
@@ -120,7 +120,7 @@
     "uuid": "^3.0.1"
   },
   "devDependencies": {
-    "7zip-bin": "2.4.1",
+    "7zip": "0.0.6",
     "@babel/core": "7.4.5",
     "@babel/plugin-proposal-decorators": "7.4.4",
     "@babel/preset-env": "7.4.5",
@@ -158,7 +158,7 @@
     "css-loader": "2.1.0",
     "devtron": "1.4.0",
     "dotenv": "8.0.0",
-    "electron": "https://github.com/stream-labs/electron/releases/download/2.0.16-streamlabs/electron-2.0.16-streamlabs.tgz",
+    "electron": "5.0.4",
     "electron-builder": "20.38.5",
     "electron-devtools-installer": "2.2.4",
     "file-loader": "1.1.11",
@@ -174,7 +174,7 @@
     "lodash-decorators": "4.3.1",
     "mime": "2.4.3",
     "moment": "2.22.2",
-    "node-win32-np": "1.0.6",
+    "node-np": "0.0.13",
     "pixelmatch": "4.0.2",
     "pngjs": "3.3.3",
     "prettier": "1.15.2",
